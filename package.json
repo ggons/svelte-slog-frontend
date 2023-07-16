@@ -1,0 +1,20 @@
+{
+  "name": "slog-frontent",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3015",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "svelte": "^4.0.3",
+    "tinro": "^0.6.12",
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
