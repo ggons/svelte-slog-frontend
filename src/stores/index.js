@@ -68,7 +68,7 @@ function setAuth() {
       const options = {
         path: '/auth/register',
         data: {
-          email: emiil,
+          email: email,
           pwd: password,
         },
       };
